@@ -2,7 +2,7 @@
 ARCH=$1
 if [ "$#" -ne 1 ]
 then
-    echo "Usage: $0 <arm|x86>"
+    echo "Usage: $0 <arm|x64>"
     exit 1
 fi
 adb root
